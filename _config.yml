@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Made For Reading
 locale:           en_US
 url:              
 
@@ -26,9 +26,9 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
+  name: Reuven Gonzales
   avatar: bio-photo.jpg
-  bio: "Describe your self."
+  bio: "Engineer and musician. Loves ops, automation, crypto, and other cool stuff"
   email: 
   disqus-shortname: 
   twitter: #username
@@ -40,7 +40,7 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: #username
+  github: ravenac95
   stackoverflow: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   xing: #username

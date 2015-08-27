@@ -274,13 +274,17 @@ $button-size: 1.5rem;
 				margin-bottom: 0rem + ($doc-line-height / $doc-font-size);
 			}
 		}
-		p {
-			@include font-rem(14);
-		}
 		p+p {
 			text-indent: 0;
 		}
 	}
+}
+
+article {
+  p {
+    @include font-rem(20);
+    line-height: 190%;
+  }
 }
 
 /* Large feature header image */
@@ -288,26 +292,6 @@ $button-size: 1.5rem;
 	position: relative;
 	margin-bottom: 2em;
 	@include clearfix;
-	&:after {
-		content: " ";
-		display: block;
-		position: absolute;
-		bottom: 0;
-		left: 8%;
-		width: 0;
-		height: 0;
-		border: 10px solid transparent;
-		border-bottom-color: $bodycolor;
-		@media #{$small} {
-			left: 25%;
-		}
-		@media #{$large} {
-			border-width: 20px;
-		}
-		@media #{$x-large} {
-			left: 33.333333333%;
-		}
-	}
 	img {
 		width: 100%;
 		height: auto;
@@ -338,7 +322,9 @@ $button-size: 1.5rem;
 }
 .article-author-side,
 .article-author-bottom {
-	h3 {
+	h6 {
+    @include font-rem(14);
+    margin-top: 10px;
 		margin-bottom: 0;
 	}
 	p {
@@ -374,8 +360,8 @@ $button-size: 1.5rem;
 .article-author-side {
 	display: none;
 	.bio-photo {
-		max-width: 110px;
-		@include rounded(150px);
+		max-width: 50px;
+		@include rounded(50px);
 	}
 	@media #{$small} {
 		display: block;
@@ -406,6 +392,10 @@ $button-size: 1.5rem;
 		.author-social {
 			max-width: 150px;
 		}
+    .bio-photo {
+		  max-width: 50px;
+		  @include rounded(50px);
+    }
 	}
 	@media #{$x-large} {
 		@include grid(12,1.5);
@@ -422,8 +412,8 @@ $button-size: 1.5rem;
 	.bio-photo {
 		float: left;
 		margin-right: 25px;
-		max-width: 100px;
-		@include rounded(150px);
+		max-width: 50px;
+		@include rounded(50px);
 	}
 	.author-social {
 		display: inline-block;
@@ -446,6 +436,10 @@ $button-size: 1.5rem;
 	li > a {
 		text-decoration: underline;
 	}
+
+  p {
+    @include font-rem(20);
+  }
 }
 
 /* Table of contents */

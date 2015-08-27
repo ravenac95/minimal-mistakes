@@ -1,20 +1,25 @@
 # Authors
 
-billy_rick:
-  name: Billy Rick
-  web: http://thewhip.com
-  email: billy@rick.com
-  bio: "What do you want, jewels? I am a very extravagant man."
-  avatar: bio-photo-2.jpg
-  twitter: extravagantman
-  google:
-    plus: BillyRick
-
-cornelius_fiddlebone:
-  name: Cornelius Fiddlebone
-  email: cornelius@thewhip.com
-  bio: "I ordered what?"
+reuven_gonzales:
+  name: Reuven Gonzales
   avatar: bio-photo.jpg
-  twitter: rhymeswithsackit
+  bio: "Engineer and musician. Loves ops, automation, crypto, and other cool stuff"
+  email: 
+  disqus-shortname: 
+  twitter: #username
+  facebook: #username
   google:
-    plus: CorneliusFiddlebone
+    plus: #username
+    analytics: 
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
+  github: ravenac95
+  twitter: ravenac95
+
+conor_gilsenan:
+  name: Conor Gilsenan
+  email: 
+  bio: "Bad ass dude."
+  avatar: bio-photo.jpg

@@ -1,9 +1,9 @@
 ---
 layout: home
-excerpt: "A minimal Jekyll theme for your blog by designer Michael Rose."
+excerpt: "Made For Reading: A blog by Virtru"
 tags: [Jekyll, theme, responsive, blog, template]
 image:
-  feature: sample-image-1.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: serenity8.jpg
+  credit: DeathToTheStockPhoto
+  creditlink: http://deathtothestockphoto.com/
 ---
